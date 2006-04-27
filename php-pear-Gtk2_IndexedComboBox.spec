@@ -71,4 +71,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files tests
 %defattr(644,root,root,755)
-%{php_pear_dir}/tests/Gtk2_IndexedComboBox/tests/Gtk2_IndexedComboBoxTest.php
+%{php_pear_dir}/tests/Gtk2_IndexedComboBox
