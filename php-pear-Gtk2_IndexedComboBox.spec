@@ -5,10 +5,11 @@
 %define		_pearname	Gtk2_IndexedComboBox
 
 Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
-Summary(pl):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola HTML select box
+Summary(pl):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
+Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -30,11 +31,11 @@ get_active_key.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Pakiet ten dostarcza mo¿liwo¶ci tworzenia ineksowanego pola Gtk2 typu
-combo box podobnego do pola HTML typu selec box. Pozwala nie tylko na
+Pakiet ten dostarcza mo¿liwo¶æ tworzenia indeksowanego pola Gtk2 typu
+combo box podobnego do pola wyboru HTML. Pozwala nie tylko na
 przechowywanie warto¶ci w typowych GtkComboBox, ale tak¿e powi±zania
 klucz-warto¶æ. Bie¿±cy klucz mo¿na w ³atwy sposób pobraæ przy u¿yciu
-get_active_key;
+get_active_key.
 
 Ta klasa ma w PEAR status: %{_status}.
 
