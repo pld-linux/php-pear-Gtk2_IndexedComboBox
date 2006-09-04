@@ -7,18 +7,18 @@
 Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
 Summary(pl):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.2.0
 Release:	1
 Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8b49ec4ce252f4f4c8f8492d2e210fa6
+# Source0-md5:	ed24417269fb575fd06a678ab8625249
 URL:		http://pear.php.net/package/Gtk2_IndexedComboBox/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-gtk
+Requires:	php-gtk2
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -66,9 +66,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc install.log docs/%{_pearname}/examples/normal.php
+%doc install.log docs/Gtk2_IndexedComboBox/examples
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Gtk2/IndexedComboBox.php
+%{php_pear_dir}/Gtk2/IndexedComboBox
 
 %files tests
 %defattr(644,root,root,755)
