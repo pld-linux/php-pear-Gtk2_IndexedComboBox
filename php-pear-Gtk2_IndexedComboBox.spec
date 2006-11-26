@@ -1,19 +1,19 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Gtk2
 %define		_subclass	IndexedComboBox
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	Gtk2_IndexedComboBox
 
 Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
 Summary(pl):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
-Release:	2
+Version:	1.0.0
+Release:	1
 Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	ed24417269fb575fd06a678ab8625249
+# Source0-md5:	fc0a0296cb8eb54815cb446055bbfa00
 URL:		http://pear.php.net/package/Gtk2_IndexedComboBox/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
