@@ -5,7 +5,7 @@
 %define		_pearname	Gtk2_IndexedComboBox
 
 Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
-Summary(pl):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
+Summary(pl.UTF-8):   %{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
@@ -31,18 +31,18 @@ get_active_key.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet ten dostarcza mo¿liwo¶æ tworzenia indeksowanego pola Gtk2 typu
+%description -l pl.UTF-8
+Pakiet ten dostarcza moÅ¼liwoÅ›Ä‡ tworzenia indeksowanego pola Gtk2 typu
 combo box podobnego do pola wyboru HTML. Pozwala nie tylko na
-przechowywanie warto¶ci w typowych GtkComboBox, ale tak¿e powi±zania
-klucz-warto¶æ. Bie¿±cy klucz mo¿na w ³atwy sposób pobraæ przy u¿yciu
+przechowywanie wartoÅ›ci w typowych GtkComboBox, ale takÅ¼e powiÄ…zania
+klucz-wartoÅ›Ä‡. BieÅ¼Ä…cy klucz moÅ¼na w Å‚atwy sposÃ³b pobraÄ‡ przy uÅ¼yciu
 get_active_key.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -50,7 +50,7 @@ AutoReq:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
