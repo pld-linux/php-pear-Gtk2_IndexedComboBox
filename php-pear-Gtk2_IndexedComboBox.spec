@@ -5,7 +5,7 @@
 %define		_pearname	Gtk2_IndexedComboBox
 
 Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
-Summary(pl.UTF-8):   %{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
+Summary(pl.UTF-8):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
@@ -42,7 +42,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
