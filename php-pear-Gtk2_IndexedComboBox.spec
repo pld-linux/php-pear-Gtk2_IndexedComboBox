@@ -5,7 +5,7 @@ Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
 Summary(pl.UTF-8):	%{_pearname} - Indeksowane pole Gtk2 typu combo box podobne do pola wyboru HTML
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
