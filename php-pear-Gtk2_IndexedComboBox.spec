@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	Gtk2_IndexedComboBox
 Summary:	%{_pearname} - Indexed Gtk2 combo box similar to the HTML select box
